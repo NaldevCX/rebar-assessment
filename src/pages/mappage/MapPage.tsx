@@ -1,7 +1,7 @@
 import NavbarComponent from "../../components/navbar/Navbar";
 import MapComponent from "../../components/map/MapComponent";
-import BottomBlock from "../../components/bottom-section/BottomBlock";
-import macBook from "../../assets/macbook.png"
+
+import ListEmployee from "../../components/employeelist/ListEmployee";
 
 document.title = "SoftGray | Map";
 function MapPage(){
@@ -11,7 +11,7 @@ function MapPage(){
   
     <NavbarComponent/>
     <MapComponent latitude={14.60905370} longtitude={121.02225650} zoom={11}/>
-    <BottomBlock subheader="test" header="test" description="test" imgSrc={macBook}/>
+    <ListEmployee fetchApiLink="https://dummy.restapiexample.com/api/v1/employees"/>
 
     </>
   )
