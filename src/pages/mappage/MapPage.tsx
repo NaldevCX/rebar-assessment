@@ -9,7 +9,7 @@ function MapPage(){
     <>
   
     <NavbarComponent/>
-    <MapComponent/>
+    <MapComponent latitude={14.60905370} longtitude={121.02225650} zoom={11}/>
     <BottomBlock subheader="test" header="test" description="test" imgSrc={macBook}/>
 
     </>
