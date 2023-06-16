@@ -10,6 +10,7 @@ import macBook from '../../assets/macbook.png';
 import ServiceGroup from '../../components/card-group/ServiceGroup';
 import NavbarComponent from '../../components/navbar/Navbar';
 //IMPORTS END
+document.title = "SoftGray | Home";
 
 function HomePage() {
   //VALUES
