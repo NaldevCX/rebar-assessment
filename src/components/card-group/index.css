@@ -1,0 +1,25 @@
+.services-container{
+  flex-direction: row;
+}
+.service-icons{
+  height:128px;
+  width: 128px;
+  color:#3799d3;
+}
+
+.text-align-justify{
+  text-align: justify;
+}
+.text-align-inter-w{
+  text-justify: inter-word
+}
+
+.text-3799d3{
+  color:#3799d3;
+}
+
+@media (max-width: 1280px){
+  .services-container{
+    flex-direction:column;
+  }
+}

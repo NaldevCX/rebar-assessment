@@ -1,0 +1,30 @@
+.items-left{
+  align-items: start;
+}
+
+.bg-color-e5e5e4{
+  background-color: #e5e5e4;
+}
+
+.bottom-container{
+  flex-direction: row;
+}
+
+.button-white{
+  background-color: white !important;
+  
+}
+
+@media (max-width: 1280px){
+  .bottom-container{
+    flex-direction:column-reverse;
+  }
+  .text-align-justify{
+    text-align: justify;
+  }
+  .text-align-inter-w{
+    text-justify: inter-word
+  }
+  
+
+}
