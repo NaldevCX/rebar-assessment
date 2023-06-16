@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<HomePage/>}/>
+        <Route path="/" element={<HomePage/>} />
         <Route path="/task2" element={<MapPage/>}/>
         {/* <Route path="*" element={<PageNotFound/>} TODO 404 PAGE */}
       </Routes>
