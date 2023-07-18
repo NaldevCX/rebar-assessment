@@ -15,7 +15,7 @@ type Employee = {
 };
 
 function ListEmployee(props : ListEmployeeProps) {
-  var now = 0;
+
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState<Employee[]>([]);
   const [error, setError] = useState<Error | null>(null);
